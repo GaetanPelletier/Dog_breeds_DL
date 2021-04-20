@@ -45,7 +45,7 @@ gradio.Interface(
     fn=classify_image,
     inputs=image,
     outputs=label,
-    title="CNN for 120 dog breeds classification",
-    description="This CNN was built thanks to transfer learning (Xception, F. Chollet).",
+    title="Image classification - 120 dog breeds",
+    # description="This CNN was built thanks to transfer learning (Xception, F. Chollet).",
     examples=sample_images
 ).launch(debug=False)
